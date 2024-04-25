@@ -1,0 +1,66 @@
+.link{
+    text-decoration: none ;
+    color: navajowhite;
+}
+
+.link:hover {
+   color: rgb(70, 202, 151) ;
+   text-decoration: underline ;
+   text-decoration-color: blue ;
+   cursor: pointer;
+}
+
+.link:visited{
+    color: rgb(40, 163, 143);
+}
+
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: 600;    
+}
+
+nav{
+    border: 1px solid navajowhite ;
+    margin: 20px 50px;
+    border-radius: 50px;
+    width: calc(100% - 100px);
+    color: navajowhite;
+    background-color: #074173;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+    #myblog{
+        padding: 150px 0;
+    }
+    .card{
+        justify-content:first baseline;
+        width: 500px;
+        background-color: #1f3e77;
+        padding: 50px ;
+        border-radius: 30px;
+        margin: 70px;
+    }
+    .dflex{
+        display: flex;
+    }
+    .w80{
+        width: 80%;
+    }
+    .chiutnizhe{
+        margin-top: 450px;
+    }
+
+.image{
+    border-radius: 50px;
+    margin-top: 90px;
+    
+}
+
+.imageblog{
+    font-weight: 50%;
+
+}
